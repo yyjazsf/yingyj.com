@@ -1,4 +1,4 @@
-
+echo "install nvm node yarn"
 # install nvm  https://github.com/nvm-sh/nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 

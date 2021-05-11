@@ -1,7 +1,12 @@
 apt update
 apt upgrade -y
 
-# install oh-my-zsh 
+echo "install go"
+sudo add-apt-repository ppa:longsleep/golang-backports
+sudo apt update
+sudo apt install golang-go
+
+echo "install oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # alias cls="clear" 
